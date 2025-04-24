@@ -26,7 +26,7 @@
 1. **Clone โปรเจกต์นี้ลงเครื่อง**
 
 ```bash
-git clone https://github.com/your-username/todo-redux-app.git
+git clone https://github.com/NarawithJangtrakulKKU/todo-list-redux.git
 cd todo-redux-app
 ```
 
