@@ -27,7 +27,7 @@
 
 ```bash
 git clone https://github.com/NarawithJangtrakulKKU/todo-list-redux.git
-cd todo-redux-app
+cd todo-list-redux
 ```
 
 2. **ติดตั้ง dependencies**
