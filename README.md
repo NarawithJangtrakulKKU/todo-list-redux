@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Todo List with Redux (Next.js)
 
-## Getting Started
+โปรเจกต์นี้เป็น Todo List เบื้องต้นที่ใช้ [Next.js](https://nextjs.org/) และ [Redux Toolkit](https://redux-toolkit.js.org/) สำหรับจัดการ state โดยมีฟีเจอร์พื้นฐานในการเพิ่ม แก้ไข ลบ และจัดการสถานะของรายการ todo
 
-First, run the development server:
+## 🚀 Features
+
+- เพิ่มรายการ Todo
+- แก้ไขรายการ Todo
+- ลบรายการ Todo
+- เปลี่ยนสถานะเป็นทำเสร็จแล้ว / ยังไม่เสร็จ
+- ลบรายการที่ทำเสร็จแล้วทั้งหมด
+- จัดการ state ด้วย Redux Toolkit
+- เก็บข้อมูลใน LocalStorage (เปิดแอปมาใหม่ข้อมูลไม่หาย)
+
+## 🛠️ Tech Stack
+
+- [Next.js 15](https://nextjs.org/)
+- [React Redux](https://react-redux.js.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📦 การติดตั้งและรันโปรเจกต์
+
+1. **Clone โปรเจกต์นี้ลงเครื่อง**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/todo-redux-app.git
+cd todo-redux-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **ติดตั้ง dependencies**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+npm install 
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **run project** 
 
-## Learn More
+```bash
+npm run dev 
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. **เปิด Browser**
+```bash
+http://localhost:3000
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 ผู้พัฒนา
 
-## Deploy on Vercel
+โปรเจ็คนี้พัฒนาโดย นราวิชญ์ จังตระกูล 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+หากมีข้อเสนอแนะ หรือต้องการพูดคุยเกี่ยวกับโปรเจกต์นี้ สามารถติดต่อมาได้เลยครับ 🙌
